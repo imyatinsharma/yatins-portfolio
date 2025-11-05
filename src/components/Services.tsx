@@ -50,7 +50,7 @@ const Services = () => {
           {services.map((service, index) => (
             <Card
               key={index}
-              className="p-8 hover:shadow-[var(--shadow-card)] transition-all duration-300 group border-2 hover:border-primary/50 cursor-pointer animate-fade-in"
+              className="p-8 hover-lift group border-2 hover:border-primary/50 cursor-pointer animate-fade-in perspective-card"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="space-y-6">

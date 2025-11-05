@@ -45,7 +45,7 @@ const Projects = () => {
         </div>
 
         <div className="max-w-5xl mx-auto">
-          <Card className="overflow-hidden border-2 hover:border-primary/50 transition-all duration-300 animate-fade-in">
+          <Card className="overflow-hidden hover-lift animate-fade-in border-2 hover:border-primary/30 perspective-card">
             {/* Project Image Placeholder */}
             <div className="h-64 md:h-80 bg-gradient-to-br from-primary via-[hsl(250_75%_65%)] to-accent flex items-center justify-center relative overflow-hidden group">
               <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-all duration-300" />

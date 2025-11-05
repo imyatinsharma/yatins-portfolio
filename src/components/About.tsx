@@ -47,7 +47,7 @@ const About = () => {
           {education.map((item, index) => (
             <Card
               key={index}
-              className="p-6 hover:shadow-[var(--shadow-card)] transition-all duration-300 group cursor-pointer border-2 hover:border-primary/50 animate-fade-in"
+              className="p-6 hover-lift group cursor-pointer animate-fade-in border-2 hover:border-primary/30"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="flex flex-col items-center text-center space-y-4">
